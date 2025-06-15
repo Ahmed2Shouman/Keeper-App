@@ -46,9 +46,9 @@ const AddNote = (props) => {
         <button
           type="submit"
           onClick={handleAddNote}
-          className='absolute flex items-center justify-center w-12 h-12 text-white bg-yellow-500 border-none rounded-full shadow-md outline-none right-5 -bottom-6'
+          className='absolute flex items-center justify-center w-12 h-12 text-3xl font-bold text-white bg-yellow-500 border-none rounded-full shadow-md outline-none right-5 -bottom-6'
         >
-          Add
+          +
         </button>
       </form>
     </div>
